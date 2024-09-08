@@ -5,6 +5,7 @@ import {
   FaFacebook,
   FaDiscord,
   FaInstagram,
+  FaHackerrank,
 } from "react-icons/fa6";
 
 import project1 from "../assets/project1.webp";
@@ -32,7 +33,7 @@ export const PROJECTS = [
     id: 1,
     title: "E-commerce Website",
     description:
-      "A full-featured e-commerce website built with React and Node.js.",
+      "In this Project, i have covered all things of MERN Stack(MongoDB, ExpressJS, ReactJS, NodeJS) , Redux and Stripe for Payment Gateway.",
     imgSrc: project1,
     link: "https://example.com/ecommerce-website",
   },
@@ -52,68 +53,68 @@ export const PROJECTS = [
     imgSrc: project3,
     link: "https://example.com/portfolio-website",
   },
-  {
-    id: 4,
-    title: "Blog Platform",
-    description:
-      "A blogging platform with user authentication and content management.",
-    imgSrc: project4,
-    link: "https://example.com/blog-platform",
-  },
+  // {
+  //   id: 4,
+  //   title: "Blog Platform",
+  //   description:
+  //     "A blogging platform with user authentication and content management.",
+  //   imgSrc: project4,
+  //   link: "https://example.com/blog-platform",
+  // },
   {
     id: 5,
-    title: "Task Management Tool",
-    description: "A task management tool to organize and prioritize work.",
+    title: "To Do Application",
+    description: "By this application I learn CRUD operation in MERN",
     imgSrc: project5,
     link: "https://example.com/task-management-tool",
   },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An online learning platform offering various courses and resources.",
-    imgSrc: project6,
-    link: "https://example.com/online-learning-platform",
-  },
-  {
-    id: 7,
-    title: "Fitness Tracker",
-    description: "A mobile application to track fitness activities and goals.",
-    imgSrc: project7,
-    link: "https://example.com/fitness-tracker",
-  },
-  {
-    id: 8,
-    title: "Recipe App",
-    description: "An app for browsing and saving various cooking recipes.",
-    imgSrc: project8,
-    link: "https://example.com/recipe-app",
-  },
-  {
-    id: 9,
-    title: "Weather Dashboard",
-    description:
-      "A weather dashboard providing current weather data and forecasts.",
-    imgSrc: project9,
-    link: "https://example.com/weather-dashboard",
-  },
+  // {
+  //   id: 6,
+  //   title: "Online Learning Platform",
+  //   description:
+  //     "An online learning platform offering various courses and resources.",
+  //   imgSrc: project6,
+  //   link: "https://example.com/online-learning-platform",
+  // },
+  // {
+  //   id: 7,
+  //   title: "Fitness Tracker",
+  //   description: "A mobile application to track fitness activities and goals.",
+  //   imgSrc: project7,
+  //   link: "https://example.com/fitness-tracker",
+  // },
+  // {
+  //   id: 8,
+  //   title: "Recipe App",
+  //   description: "An app for browsing and saving various cooking recipes.",
+  //   imgSrc: project8,
+  //   link: "https://example.com/recipe-app",
+  // },
+  // {
+  //   id: 9,
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "A weather dashboard providing current weather data and forecasts.",
+  //   imgSrc: project9,
+  //   link: "https://example.com/weather-dashboard",
+  // },
 ];
 
 export const ABOUT =
-  "As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
+  "As a dedicated Full Stack Developer, I specialize in creating dynamic and responsive web applications that provide seamless user experiences. With a strong foundation in both front-end and back-end technologies, I excel in building robust and scalable solutions. My expertise includes working with JavaScript frameworks such as React, Next and Node.js, as well as proficiency in databases like MongoDB and SQL. I am passionate about continuous learning and keeping up-to-date with the latest industry trends, which allows me to implement modern practices and tools in my projects.";
 
 export const EXPERIENCES = [
   {
-    company: "Google",
-    role: "Software Engineer",
-    year: "12/2023 - Present",
+    company: "BeyondUrl",
+    role: "MERN Developer",
+    year: "Nov 2023 - Present",
     description:
       "Developing and maintaining scalable web applications using modern technologies. Collaborating with cross-functional teams to design and implement new features. Enhancing application performance and ensuring high-quality code through rigorous testing and code reviews. Contributing to the continuous improvement of development processes and best practices.",
   },
   {
-    company: "Facebook",
-    role: "Frontend Developer",
-    year: "01/2021 - 11/2023",
+    company: "Urban Educate",
+    role: "React Developer",
+    year: "Feb 2022 - Aug 2022",
     description:
       "Implemented user interfaces for web applications using React and Redux. Worked closely with designers to ensure seamless user experiences. Optimized components for maximum performance across a vast array of web-capable devices and browsers. Participated in code reviews and provided feedback to maintain high code quality.",
   },
@@ -121,33 +122,34 @@ export const EXPERIENCES = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
+    href: "https://www.facebook.com/profile.php?id=61563443811008",
     icon: <FaFacebook fontSize={26} className="hover:opacity-80" />,
   },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
+  // },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
+  // },
   {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={26} className="hover:opacity-80" />,
+    href: "https://www.hackerrank.com/profile/sonisushil9516",
+    icon: <FaHackerrank fontSize={26} className="hover:opacity-80" />,
   },
+
   {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/Sushil9516",
     icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/sushil-kumar-soni-05a677243/",
     icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
   },
 ];
 
 export const CONTACT = {
-  text: "I am always excited to collaborate on new and challenging projects. Whether you have a specific project in mind or just want to explore potential opportunities, Id love to hear from you. Lets combine our skills and expertise to create something amazing. Feel free to reach out to discuss how we can work together to achieve your goals.",
-  email: "hi@benson.langford.me",
-  phone: "+(221 - 7654567892)",
+  text: "I am always excited to collaborate on new and challenging projects. I would love to hear from you if you have a specific project in mind or if you just want to explore potential opportunities. Let's combine our skills and expertise to create something amazing. Please feel free to reach out to discuss how we can work together to achieve your goals.",
+  email: "Sonisushil9516@gmail.com",
+  phone: "+91 9516341641",
 };

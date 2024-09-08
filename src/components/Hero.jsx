@@ -1,6 +1,6 @@
 import React from "react";
 import { LuImport } from "react-icons/lu";
-import Sushil from "../assets/benson.webp";
+import Sushil from "../assets/Hero.jpeg";
 const Hero = () => {
   return (
     <section>
