@@ -97,6 +97,7 @@ export const PROJECTS = [
   //     "A weather dashboard providing current weather data and forecasts.",
   //   imgSrc: project9,
   //   link: "https://example.com/weather-dashboard",
+  
   // },
 ];
 
